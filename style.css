@@ -25,6 +25,8 @@ button {
     color: white;
 }
 
+
+/*Styles the padding for the flexbox of the top two sections; Header and Hero sections*/
 .header, .hero-section {
     display: flex;
     justify-content: space-between;
@@ -43,7 +45,8 @@ button {
     gap: 16px;
 }
 
-
+/*Hero sections text is styled below as well as the image
+A key note is that the padding is reliant upon the image for this section.*/
 .hero-text-section {
     display: flex;
     flex-direction: column;
@@ -73,22 +76,25 @@ button {
 
 
 
-
+/**/
 .information-section {
     display: flex;
     flex-direction: column;
 }
 
+/**/
 .card-container {
     display: flex;
     gap: 8px;
 }
 
+/**/
 .quote-section {
     display: flex;
     flex-direction: column;
 }
 
+/**/
 .footer {
     display: flex;
     justify-content: space-between;
