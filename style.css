@@ -1,0 +1,36 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    gap: 8px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
