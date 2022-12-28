@@ -143,4 +143,32 @@ A key note is that the padding is reliant upon the image for this section.*/
 .footer {
     display: flex;
     justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 72px 84px;
+    padding: 36px 72px;
+    color: #f9faf8; 
+}
+
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left-footer p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.right-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer button {
+    border: 2px solid white;
 }
