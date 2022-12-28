@@ -95,7 +95,7 @@ A key note is that the padding is reliant upon the image for this section.*/
 /**/
 .card-container {
     display: flex;
-    gap: 32px;
+    gap: 48px;
     text-align: center;
 }
 
@@ -117,6 +117,26 @@ A key note is that the padding is reliant upon the image for this section.*/
 .quote-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 128px;
+    background-color: #e5e7eb;
+}
+
+.quote-and-author {
+    max-width: 750px;
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    text-align: end;
+    color: #1F2937;
+    font-weight: bolder;
 }
 
 /**/
