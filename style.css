@@ -14,7 +14,7 @@ ul {
 ul li a {
     text-decoration: none;
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 button {
@@ -80,12 +80,37 @@ A key note is that the padding is reliant upon the image for this section.*/
 .information-section {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 36px;
+}
+
+.information-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 /**/
 .card-container {
     display: flex;
-    gap: 8px;
+    gap: 32px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 150px;
+    color: #37465b;
+    font-size: 16px;
+}
+
+.card img {
+    border-radius: 8px;
+    border: 4px solid #3882f6;
 }
 
 /**/
